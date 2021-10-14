@@ -1,4 +1,4 @@
-import Page from '../components/Page'
+import Page from '../components/App/Page'
 
 export default function About() {
   return (

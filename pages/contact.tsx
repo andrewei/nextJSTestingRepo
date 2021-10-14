@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Page from '../components/Page'
+import Page from '../components/App/Page'
 
 import * as gtag from '../lib/gtag'
 
@@ -13,6 +13,7 @@ export default class Contact extends Component {
   handleSubmit = (e) => {
     e.preventDefault()
 
+    //@ts-ignore
     gtag.event({
       action: 'submit_form',
       category: 'Contact',

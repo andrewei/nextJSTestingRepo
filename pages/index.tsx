@@ -1,9 +1,10 @@
-import Page from '../components/App/Page'
+import React from 'react'
+import Calculator from "../components/Calculator"
 
 export default function Home() {
   return (
-    <Page>
-        hello
-    </Page>
+    <>
+      <Calculator />
+    </>
   )
 }
